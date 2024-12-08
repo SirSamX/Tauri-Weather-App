@@ -20,7 +20,7 @@ export default function App() {
 
     try {
       const response = await fetch(
-        `https://api.weatherapi.com/v1/current.json?key=c7596911d9f04282bee163344242311&q=${city}&lang=de`
+        `https://api.weatherapi.com/v1/current.json?key=use ur key here&q=${city}&lang=de`
       );
       
       if (!response.ok) {
